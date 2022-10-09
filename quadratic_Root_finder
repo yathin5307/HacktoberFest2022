@@ -1,0 +1,8 @@
+import cmath
+a=int(input("Enter First Co-efficient: "))
+b=int(input("Enter Second Co-efficient: "))
+c=int(input("Enter Third Co-efficient: "))
+d=(b**2)-(4*a*c)
+root1=(-b-cmath.sqrt(d))/(2*a)
+root2=(-b+cmath.sqrt(d))/(2*a)
+print('the solution are{0} and {1}'.format(root1,root2))
